@@ -7,3 +7,23 @@
 	<windows.h>
 	<iostream>
 
+1519448835 source:c:\users\novario\documents\github\asd_task_5\list.cpp
+	"list.h"
+
+1519448464 c:\users\novario\documents\github\asd_task_5\list.h
+	<string>
+	<windows.h>
+	<iostream>
+
+1519448464 source:c:\users\novario\documents\github\asd_task_5\main.cpp
+	"player.h"
+	"list.h"
+	<conio.h>
+
+1519355560 c:\users\novario\documents\github\asd_task_5\player.h
+	"list.h"
+
+1519448569 source:c:\users\novario\documents\github\asd_task_5\player.cpp
+	"player.h"
+	<ctime>
+

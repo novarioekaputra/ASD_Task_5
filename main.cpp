@@ -114,8 +114,8 @@ void runMenu(int menu) {
     case 2:
         // insert last music
         //-------------your code here-------------
-        cout<<"UNDER MAIN TENIS"<<endl;
-
+           P=inputMusic();
+           insertLast(L,P);
         //----------------------------------------
         cout<<"press enter";getche();
         break;
@@ -132,8 +132,8 @@ void runMenu(int menu) {
     case 5:
         // play last music
         //-------------your code here-------------
-        cout<<"UNDER MAIN TENIS"<<endl;
-
+        P = last(L);
+        playMusic(P);
         //----------------------------------------
         break;
     case 6:
@@ -151,8 +151,8 @@ void runMenu(int menu) {
     case 7:
         // search music by ID
         //-------------your code here-------------
-        cout<<"UNDER MAIN TENIS"<<endl;
-
+        cout<<"Input music ID : "<<endl;
+        cin>>x.ID;
         //----------------------------------------
         cout<<"press enter";getche();
         break;
